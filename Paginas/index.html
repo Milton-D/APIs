@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/assets/api.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/Style/style.css">
+    <title>APIS PAGES</title>
+    
+</head>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+              <a class="navbar-brand" href="/Paginas/index.html">API PAGES</a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                  aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav ml-auto">
+                      <li class="nav-item">
+                          <a class="nav-link" href="/Paginas/index.html">INVESTIGACIÓN</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="/Paginas/RickAndMorty.html">RICK AND MORTY</a>
+                      <li class="nav-item">
+                          <a class="nav-link" href="/Paginas/Zorros.html">ZORROS API</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="/Paginas/Vehiculos.html">VEHÍCULOS API</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="/Paginas/Usuarios.html">USUARIOS ALEATORIOS</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="/Paginas/Formulario.html">FORMULARIO</a>
+                    </li>
+                  </ul>
+              </div>
+            </div>
+        </nav>
+    </header>
+    <body>
+        <div class="api-content">
+            <h2>¿QUÉ ES UN COMPONENTE EN REACT Y CÓMO SE CREA UNO?</h2>
+            <ul>
+              <li>Un componente en React es una pieza reutilizable de interfaz de usuario que nos ayuda a estructurar y a hacer modelos de nuestra aplicación. Hay componentes de dos tipos: componentes de clase y componentes funcionales.
+                Los componentes de clase los usamos cuando se necesita un estado interno y para los métodos del ciclo de vida.
+                Los componentes funcionales son más versátiles a la hora de renderizar JSX según las propiedades que reciba.
+                Para la creación de nuestro componente primeramente hacemos la importación de la librería de  React en nuestro código, después miramos en que lo vamos a enfocar (de clase o funcional) ya con esto si decidimos clase hacemos la implementación del método render() dentro de la clase que nos devolverá los elementos JSX que tiene mi componente. 
+                También se puede definir otros métodos para el ciclo de vida o métodos personalizados dentro de mi clase, esto según el uso que tendrá.
+                </li>
+            </ul>
+            
+            <h2>¿CUÁL ES LA DIFERENCIA ENTRE REACTDOM.RENDER() y REACTDOM.HYDRATE()?</h2>
+            <ul>
+              <li>ReactDOM.render() este esta enfocado en el lado del cliente mientras que ReactDOM.hydrate() es utilizado en lado del servidor para hidratar un html </li>
+            </ul>
+            
+            <h2>¿POR QUÉ ES IMPORTANTE USAR KEYS EN LAS LISTAS DE ELEMENTOS EN REACT?</h2>
+            <ul>
+              <li>- Ayudan a mantener el componente en su estado correcto y previenen problemas con su renderizado.</li>
+              <li>- Permiten que actualicemos nuestro dominio de una manera más eficiente.</li>
+              <li>Los autos vienen en una variedad de formas y tamaños, desde autos pequeños y compactos hasta camionetas y SUV grandes.</li>
+              <li>- Ayudan a identificar los elementos que se cambien para mejorar el rendimiento haciendo que no se tenga que renderizar las lista de nuestros elementos cuando realicemos cambios en esta.</li>
+            </ul>
+            <h2>¿QUÉ ES LA PROP CHILDREN Y CÓMO SE USA EN REACT?</h2>
+            <ul>
+              <li>En React, la prop children se considera una estructura de datos opaca. Esto significa que no debes
+                 confiar en cómo está estructurada. Para transformar, filtrar, o contar children, deberías usar los métodos Children.<br> En 
+                 la practica, la estructura de datos children a menudo se representa como un array internamente. Sin embargo,
+                  si solo hay un hijos, entonces React no creará un array extra ya que esto conduciría a una sobrecarga de memoria
+                   innecesaria. Siempre y cuando uses los métodos Children en lugar de hacer una introspección directa de los prop
+                    children, tú código no se romperá incluso si React cambia la forma en que se implementa realmente la estructura de datos.</li>
+            </ul>
+            <h2>¿CÓMO SE PASA INFORMACIÓN ENTRE COMPONENTES EN REACT?</h2>
+            <ul>
+              <li>Los componentes de React utilizan props para comunicarse entre sí. Cada componente padre puede enviar información a sus
+                 componentes hijos mediante el uso de props. Las props pueden parecerte similares a los atributos HTML, pero permiten pasar
+                  cualquier valor de JavaScript a través de ellas, como objetos, arrays y funciones.</li>
+            </ul>
+    </div>
+
+        <script src="/estilos-css.js/apps.js"></script>
+        <script src="/estilos-css.js/app.js"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </body>
+
+</html>
